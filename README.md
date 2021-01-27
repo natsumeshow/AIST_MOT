@@ -1,16 +1,9 @@
 # AIST MOT work using CTracker
 
-CTracker (ECCV2020 Spotlight)
 
-Official implementation in PyTorch of **Chained-Tracker** as described in [Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking](https://arxiv.org/abs/2007.14557).
- 
-The introduction video of CTracker is uploaded to [Youtube](https://www.youtube.com/watch?v=UovwAgKys88).
+
 
 The codes is tested with PyTorch 0.4.0. It may not run with other versions.
-
-## Video demos on MOT challenge test set
-<img src="demos/MOT17-03.gif" width="400"/>   <img src="demos/MOT17-07.gif" width="400"/>
-<img src="demos/MOT17-08.gif" width="400"/>   <img src="demos/MOT17-12.gif" width="400"/>
 
 ## Installation
 * Clone this repo into a directory named CTRACKER_ROOT
@@ -94,22 +87,4 @@ A trained model is available at [Google Drive](https://drive.google.com/file/d/1
 CUDA_VISIBLE_DEVICES=0 python test.py --dataset_path MOT17_ROOT --model_dir ./trained_model/
 ```
 
-
-## Acknowledgements
-
-- Part of codes are borrowed from the [pytorch retinanet implementation](https://github.com/yhenon/pytorch-retinanet)
-- The NMS module used is from the [simpledet](https://github.com/TuSimple/simpledet)
-
-
-## Citing CTracker
-
-If you find CTracker is useful in your project, please consider citing us:
-
-```BibTeX
-@inproceedings{peng2020ctracker,
-  title={Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking},
-  author={Peng, Jinlong and Wang, Changan and Wan, Fangbin and Wu, Yang and Wang, Yabiao and Tai, Ying and Wang, Chengjie and Li, Jilin and Huang, Feiyue and Fu, Yanwei},
-  booktitle={Proceedings of the European Conference on Computer Vision},
-  year={2020},
-}
-```
+For more details, please refer to CTracker author's [github](https://github.com/pjl1995/CTracker).
