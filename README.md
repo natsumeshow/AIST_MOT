@@ -3,7 +3,7 @@ In this project, we used CTrakcer's model to detect pedestrian trajectories in t
 
 At present, our work content uses CTracker's train.py to train the MOT17 dataset and performs a part of the fine tune on its model.
 
-Then, we used the model obtained after the training to test for a period of time when we were shooting.
+Then, we used the model obtained after the training to test for our's test video.
 
 
 # How to use
