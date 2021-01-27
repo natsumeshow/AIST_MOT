@@ -1,4 +1,4 @@
-# AIST work useing CTracker
+# AIST MOT work useing CTracker
 
 CTracker (ECCV2020 Spotlight)
 
