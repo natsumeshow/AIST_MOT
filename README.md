@@ -5,6 +5,7 @@ At present, our work content uses CTracker's train.py to train the MOT17 dataset
 
 Then, we used the model obtained after the training to test for our's test video.
 
+In the next work, we will try to make some changes to the CTracker model to get better performance.
 
 # Installation 
 
