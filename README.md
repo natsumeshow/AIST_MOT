@@ -6,11 +6,10 @@ At present, our work content uses CTracker's train.py to train the MOT17 dataset
 Then, we used the model obtained after the training to test for our's test video.
 
 
-# How to use
+# Installation 
 
 The codes is tested with PyTorch 0.4.0. It may not run with other versions.
 
-## Installation
 * Clone this repo into a directory named CTRACKER_ROOT
 * Install the required packages
 ```
