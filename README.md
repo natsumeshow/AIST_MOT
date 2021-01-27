@@ -1,11 +1,10 @@
 # AIST MOT work using CTracker
-In this project, we used CTrakcer's model to detect pedestrian trajectories in the video.
+In this project, we used CTrakcer's model to track human in the video.
 
-At present, our work content uses CTracker's train.py to train the MOT17 dataset and performs a part of the fine tune on its model.
+At present, we train and fine-tune CTracker on the MOT17 dataset.
 
-Then, we used the model obtained after the training to test for our's test video.
+Then, we used the model obtained after the training to test for our test video.
 
-In the next work, we will try to make some changes to the CTracker model to get better performance.
 
 # Installation 
 
