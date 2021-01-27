@@ -85,10 +85,12 @@ By default, testing will start immediately after training finished.
 
 ## Testing
 
-A trained model is available at [Google Drive](https://drive.google.com/file/d/1-5f-3QwcDoFL6b3_81tcsYTWsU43aBaz/view?usp=sharing)/[Tencent Weiyun](https://share.weiyun.com/KgWrWCv3), run the following commands to start testing:
+A trained model is available at [Google Drive](https://drive.google.com/drive/folders/1TG2nBFNZ-XSoTWcsO8YFK75CuooJsM5u?usp=sharing), 
+run the following commands to start testing:
+
 
 ```
-CUDA_VISIBLE_DEVICES=0 python test.py --dataset_path MOT17_ROOT --model_dir ./trained_model/
+CUDA_VISIBLE_DEVICES=0 python test.py --dataset_path TEST_VIDEO_ROOT --model_dir ./trained_model/
 ```
 
 For more details, please refer to CTracker author's [github](https://github.com/pjl1995/CTracker).
