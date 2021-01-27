@@ -1,6 +1,6 @@
 # AIST work useing CTracker
 
-# CTracker (ECCV2020 Spotlight)
+CTracker (ECCV2020 Spotlight)
 
 Official implementation in PyTorch of **Chained-Tracker** as described in [Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking](https://arxiv.org/abs/2007.14557).
  
